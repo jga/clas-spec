@@ -44,3 +44,11 @@ The fourth column in a CLAS-compliant CSV must be a string.  This is an open-end
 A CLAS-compliant CSV may have additional columns of data. There are no requirements for additional fields.
 
 
+## Implementation Suggestions
+
+These are not requirements but should be considered as "best practice" by applications working with the specifications data format.
+
+**First Row**. The first row should include the column names. If possible, column names should use an 'underscore' format and be all lower-case characters.
+
+**Adapters**. Data store CSVs may have the required columns but in the wrong order; your application should consider creating a 'transformation' step; these should be referred to as 'adapter' functions/classes, etc.
+
