@@ -5,11 +5,11 @@
 1. Design Intent
 
 2. Data Format
-  1. Timestamp
-  2. Overall Rating
-  3. Leader Ranking
-  4. Feedback
-  5. Additional data
+  - 2.1 Timestamp
+  - 2.2 Overall Rating
+  - 2.3 Actor Ranking
+  - 2.4 Feedback
+  - 2.5 Additional data
 
 3. Implementation Suggestions
 
@@ -39,7 +39,7 @@ The third column in a CLAS-compliant CSV must be a string. An empty string is an
 
 The fourth column in a CLAS-compliant CSV must be a string.  This is an open-ended request for feedback relevant to the survey subject. This field can be null; a null value must be interpreted as empty feedback.
 
-#### 2.5 Additional Data
+#### 2.5 Additional data
 
 A CLAS-compliant CSV may have additional columns of data. There are no requirements for additional fields.
 
