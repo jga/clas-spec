@@ -5,12 +5,11 @@
 1. Design Intent
 
 2. Data Format
-
-2.1 Timestamp
-2.2 Overall Rating
-2.3 Leader Ranking
-2.4 Feedback
-2.5 Additional data
+  2.1 Timestamp
+  2.2 Overall Rating
+  2.3 Leader Ranking
+  2.4 Feedback
+  2.5 Additional data
 
 3. Implementation Suggestions
 
