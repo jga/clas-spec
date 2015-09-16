@@ -21,7 +21,7 @@ This specification proposes a light data format for CSV files.  These CSV files 
 
 The format assumes that fewer, direct questions increase completion rate. Additionally, the format has the opinion that at least one longitudinal chart that tracks performance is a non-negotiable requirement to a quality survey project. The specification sees human leaders are key actors in civic affairs. Open-ended feedback is valuable for gathering  To summarize, the data format opines that a focused set of time series data points about leadership performance coupled
 
-## 2. Data Format
+## 2. Data format
 
 #### 2.1 Timestamp
 
@@ -43,12 +43,11 @@ The fourth column in a CLAS-compliant CSV must be a string.  This is an open-end
 
 A CLAS-compliant CSV may have additional columns of data. There are no requirements for additional fields.
 
+## 3. Implementation suggestions
 
-## Implementation Suggestions
-
-These are not requirements but should be considered as "best practice" by applications working with the specifications data format.
+These are not requirements but should be considered as "best practice" by applications working with the specification's data format.
 
 **First Row**. The first row should include the column names. If possible, column names should use an 'underscore' format and be all lower-case characters.
 
-**Adapters**. Data store CSVs may have the required columns but in the wrong order; your application should consider creating a 'transformation' step; these should be referred to as 'adapter' functions/classes, etc.
+**Adapters**. CSVs may have the required columns but in the wrong order; your application should consider creating a 'transformation' step; these should be referred to as 'adapter' functions/classes, etc.
 
